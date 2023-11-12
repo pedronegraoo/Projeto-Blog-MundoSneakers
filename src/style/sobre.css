@@ -1,0 +1,40 @@
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contet-left h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Roboto";
+  margin-bottom: 1rem;
+}
+
+.contet-left span p {
+  width: 400px;
+  height: auto;
+  font-size: 17px;
+  font-family: "Roboto";
+  line-height: 22px;
+}
+
+.contet-right {
+  height: 27rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.contet-right img {
+  width: 19rem;
+  height: 27rem;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 25px #00000056;
+  transition: 0.5s;
+}
+
+.contet-right:hover img {
+  filter: blur(1px);
+  transform: scale(1.1);
+}
