@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Bodoni+Moda:opsz@6..96&family=Caprasimo&family=Lobster&family=Lobster+Two&family=Open+Sans:wght@300;500;700&family=Outfit:wght@300;400;600&family=Roboto:wght@100;400&display=swap");
+
+:root {
+  --color-white: #faf1e4;
+  --color-green-dark: #435334;
+  --color-green-medium: #9eb384;
+  --color-green-light: #cedebd;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "Open Sans";
+  font-size: 45px;
+  font-weight: bold;
+
+  background: linear-gradient(
+    to left,
+    var(--color-green-light),
+    var(--color-green-medium),
+    var(--color-green-dark),
+    var(--color-green-light)
+  );
+  background-size: 400% 100%;
+  animation: degrade-title 10s linear infinite alternate;
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes degrade-title {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 400%;
+  }
+}
+
+.main div img {
+  width: 5rem;
+  margin-left: 1.5rem;
+}
+
+.div-img-all {
+  display: flex;
+  gap: 2rem;
+}
+
+.div-img {
+  width: 18rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 15px #00000056;
+  overflow: hidden;
+}
+
+.section img {
+  width: 18rem;
+  border-radius: 1rem;
+  margin-inline: 25px;
+  transition: all 0.3s linear;
+}
+
+.div-img:hover img {
+  scale: 1.1;
+}
+
+.section-content-top {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: var(--color-green-light);
+}
+
+.section-content-top h1 {
+  font-size: 40px;
+  font-family: "Lobster Two";
+  margin-top: 25px;
+}
+
+.text {
+  width: 900px;
+  font-size: 16px;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.section-content-bottom {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.section-content-bottom h1 {
+  font-size: 40px;
+  font-family: "Open Sans";
+  margin-top: 25px;
+}
+
+.div2-img {
+  width: 16rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 15px #00000056;
+  overflow: hidden;
+}
+
+.section2 img {
+  width: 16rem;
+  border-radius: 1rem;
+  margin-inline: 25px;
+  transition: all 0.3s linear;
+}
+
+.div2-img:hover img {
+  scale: 1.1;
+}
+
+.section2-content-top {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: var(--color-green-light);
+}
+
+.section2-content-top h1 {
+  font-size: 40px;
+  font-family: "Outfit";
+  margin-top: 25px;
+}
+
+.section2-content-bottom {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.section2-content-bottom h1 {
+  font-size: 40px;
+  font-family: "Roboto";
+  margin-top: 25px;
+}
