@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Bodoni+Moda:opsz@6..96&family=Caprasimo&family=Lobster&family=Lobster+Two&family=Open+Sans:wght@300;500;700&family=Outfit:wght@300;400;600&family=Roboto:wght@100;400&display=swap");
+
+:root {
+  --color-white: #faf1e4;
+  --color-green-dark: #435334;
+  --color-green-medium: #9eb384;
+  --color-green-light: #cedebd;
+  --color-orange: #e86a33;
+  --font-Open: "Open Sans";
+  --font-Bodoni: "Bodoni Moda";
+  --font-Roboto: "Roboto";
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "Open Sans";
+  font-size: 45px;
+  font-weight: bold;
+
+  background: linear-gradient(
+    to left,
+    var(--color-green-light),
+    var(--color-green-medium),
+    var(--color-green-dark),
+    var(--color-green-light)
+  );
+  background-size: 400% 100%;
+  animation: degrade-title 10s linear infinite alternate;
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes degrade-title {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 400%;
+  }
+}
+
+.subtitle {
+  font-family: var(--font-Bodoni);
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+/* SECTION */
+
+.section {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.section img {
+  width: 50%;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  transition: all 0.3s linear;
+  image-rendering: auto;
+  /* object-fit: cover; */
+}
+
+.section-content {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  justify-content: center;
+  /* gap: 2rem; */
+}
+
+.section-content-left,
+.section-content-right {
+  background-color: var(--color-green-light);
+  width: 620px;
+  height: 370px;
+  display: flex;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 10px #00000056;
+  overflow: hidden;
+}
+
+.section-content-left img:hover,
+.section-content-right img:hover {
+  scale: 1.1;
+}
+
+.text {
+  width: 50%;
+  padding: 1.5rem;
+  overflow: auto;
+}
+
+.section-content-left h1,
+.section-content-right h1 {
+  font-family: var(--font-Open);
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  /* background-color: green; */
+}
+
+.section-content-left p,
+.section-content-right p {
+  font-family: var(--font-Open);
+  font-size: 1rem;
+}
