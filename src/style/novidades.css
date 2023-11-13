@@ -78,7 +78,7 @@
   align-items: center;
   /* justify-content: space-around; */
   justify-content: center;
-  /* gap: 2rem; */
+  gap: 2rem;
 }
 
 .section-content-left,
@@ -110,7 +110,6 @@
   font-size: 1.8rem;
   margin-bottom: 1rem;
   text-transform: capitalize;
-  /* background-color: green; */
 }
 
 .section-content-left p,
