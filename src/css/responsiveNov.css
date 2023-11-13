@@ -6,6 +6,10 @@
     margin-bottom: 5rem;
   }
 
+  .section-content {
+    gap: 0;
+  }
+
   #primeiraDiv {
     display: grid;
     gap: 2rem;
@@ -237,11 +241,11 @@
 
   .navbar-logo img {
     width: 55px;
-    margin-left: 0.7rem;
+    margin-left: 0.4rem;
   }
 
   .navbar-titles {
-    gap: 0.6rem;
+    gap: 0.5rem;
   }
 
   .navbar-titles p {
@@ -394,7 +398,7 @@
 
   .navbar-logo img {
     width: 55px;
-    margin-left: 0.5rem;
+    margin-left: 0.3rem;
   }
 
   .navbar-titles {
