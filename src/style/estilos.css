@@ -5,6 +5,10 @@
   --color-green-dark: #435334;
   --color-green-medium: #9eb384;
   --color-green-light: #cedebd;
+  --color-orange: #e86a33;
+  --font-Open: "Open Sans";
+  --font-Bodoni: "Bodoni Moda";
+  --font-Roboto: "Roboto";
 }
 
 .main {
@@ -45,19 +49,26 @@
   }
 }
 
-.main p {
+.subtitle {
   font-size: 20px;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  margin-top: 1rem;
 }
 
+/* SECTION */
+
 .section {
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 3rem;
 }
 
 .section-content {
-  width: 800px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,16 +77,18 @@
 }
 
 .section-content h1 {
-  font-size: 30px;
+  font-family: "Times New Roman";
+  font-size: 40px;
   text-transform: capitalize;
 }
 
 .section-content p {
+  width: 60%;
   font-size: 20px;
   font-size: "Roboto";
 }
 
-.section-content img {
+.img {
   width: 18rem;
   height: 27rem;
   border-radius: 1rem;
