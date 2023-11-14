@@ -1,10 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Alice&family=Bodoni+Moda:opsz@6..96&family=Caprasimo&family=Lobster&family=Lobster+Two&family=Open+Sans:wght@300;500;700&family=Outfit:wght@300;400;600&family=Roboto:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Bodoni+Moda:opsz@6..96&family=Caprasimo&family=Inclusive+Sans&family=Lobster&family=Lobster+Two&family=Open+Sans:wght@300;500;700&family=Outfit:wght@300;400;600&family=Poppins:wght@100;400&family=Roboto+Slab:wght@100&family=Roboto:wght@100;400&display=swap");
 
 :root {
   --color-white: #faf1e4;
   --color-green-dark: #435334;
   --color-green-medium: #9eb384;
   --color-green-light: #cedebd;
+  --color-orange: #e86a33;
+  --font-Open: "Open Sans";
+  --font-Bodoni: "Bodoni Moda";
+  --font-Roboto: "Roboto";
 }
 
 .main {
@@ -44,64 +48,52 @@
   }
 }
 
-.main p {
+.text-subtitle {
+  font-family: var(--font-Roboto);
+  width: 500px;
   font-size: 18px;
   text-align: center;
+  margin-top: 1rem;
 }
 
-.main span {
-  width: 500px;
-}
+/* SECTION */
 
 .content1,
 .content3 {
-  height: 30rem;
+  height: 100%;
+  padding-block: 2rem;
   display: flex;
   background-color: var(--color-green-medium);
 }
 
 .content2 {
-  height: 30rem;
+  height: 100%;
+  padding-block: 2rem;
   display: flex;
-  background-color: var(--color-white);
+  background-color: #ffffff;
 }
 
 .content1 img,
+.content2 img,
 .content3 img {
-  width: 18rem;
-  border-radius: 1rem;
-  box-shadow: 10px 10px 15px #00000056;
-}
-
-.content2 img {
-  width: 16rem;
+  /* width: 18rem; */
+  width: 22rem;
+  height: 100%;
   border-radius: 1rem;
   /* box-shadow: 0px 2px 15px #00000056; */
   box-shadow: 10px 10px 15px #00000056;
 }
 
-.content1-left,
-.content1-right,
-.content3-left,
-.content3-right {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 1rem;
-  font-family: "Roboto";
-  gap: 1.5rem;
-}
-
-.content1-left,
-.content3-left {
-  margin-left: 3rem;
+.content1-left h1,
+.content2-right h1,
+.content3-left h1 {
+  font-family: var(--font-Bodoni);
+  font-size: 35px;
+  text-transform: capitalize;
 }
 
 .content1-left h6,
-.content2-left h6,
+.content2-right h6,
 .content3-left h6 {
   border: 3px solid var(--color-green-dark);
   border-top: none;
@@ -109,37 +101,54 @@
   border-bottom-right-radius: 1rem;
   width: 650px;
   padding: 25px;
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Roboto";
 }
 
-.content1-left h1,
-.content2-left h1,
-.content3-left h1 {
-  text-transform: capitalize;
-}
-
-.content2-left,
-.content2-right {
-  width: 50%;
+.content1-left,
+.content3-left {
+  width: 55%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.content2-right {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content1-right,
+.content3-right {
+  width: 45%;
+  height: 100%;
   font-size: 1rem;
   font-family: "Roboto";
-  gap: 1.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .content2-left {
-  margin-right: 3rem;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto";
+  font-size: 1rem;
 }
 
 /*EFEITO FLIP */
 .flip-container {
-  width: 18rem;
-  height: 24rem;
+  /* width: 18rem; */
+  width: 22rem;
+  /* height: 24rem; */
+  height: 30.5rem;
 }
 
 .flip {
@@ -170,6 +179,7 @@
   gap: 2rem;
   padding: 2rem;
   font-weight: bold;
+  background-color: #ffffff6c;
   box-shadow: 6px 6px 10px #00000049;
 }
 
