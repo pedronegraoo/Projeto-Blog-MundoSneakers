@@ -1,0 +1,305 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* PÁGINA SOBRE */
+  .content-left-sobre,
+  .content-right-sobre {
+    padding-top: 4rem;
+  }
+
+  .content-left-sobre {
+    width: 60%;
+  }
+
+  .content-right-sobre {
+    width: 40%;
+  }
+
+  .title-sobre {
+    font-size: 36px;
+  }
+
+  .text-sobre {
+    width: 90%;
+    font-size: 16px;
+    padding-inline: 20px;
+  }
+
+  .content-right-sobre img {
+    width: 75%;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  /* NAVBAR */
+
+  .navbar {
+    justify-content: space-around;
+  }
+
+  .navbar-redes {
+    display: none;
+  }
+
+  .navbar-titles {
+    gap: 1rem;
+  }
+
+  /* PÁGINA SOBRE */
+  .section {
+    height: 100%;
+  }
+
+  .all-content {
+    flex-direction: column-reverse;
+  }
+
+  .content-left-sobre {
+    width: 100%;
+    margin-block: 2rem;
+    padding-top: 0;
+  }
+
+  .title-sobre {
+    font-size: 28px;
+  }
+
+  .text-sobre {
+    font-size: 15px;
+    padding-inline: 45px;
+  }
+
+  .content-right-sobre {
+    width: 100%;
+    padding-top: 6rem;
+  }
+
+  .content-right-sobre img {
+    width: 40%;
+  }
+
+  /* FOOTER */
+
+  .footer-redes {
+    visibility: visible;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+  /* NAVBAR */
+
+  .navbar {
+    justify-content: space-around;
+  }
+
+  .navbar-logo img {
+    width: 55px;
+    margin-left: 0.4rem;
+  }
+
+  .navbar-titles {
+    gap: 0.5rem;
+  }
+
+  .navbar-titles p {
+    font-size: 13px;
+  }
+
+  .navbar-redes {
+    display: none;
+  }
+
+  /* PÁGINA SOBRE */
+  .section {
+    height: 100%;
+  }
+
+  .all-content {
+    flex-direction: column-reverse;
+  }
+
+  .content-left-sobre {
+    width: 100%;
+    margin-block: 2rem 1rem;
+    padding-top: 0;
+  }
+
+  .title-sobre {
+    font-size: 25px;
+  }
+
+  .text-sobre {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 15px 35px;
+  }
+
+  .content-right-sobre {
+    width: 100%;
+    padding-top: 6rem;
+  }
+
+  .content-right-sobre img {
+    width: 68%;
+  }
+
+  /* FOOTER */
+
+  .footer-redes,
+  .footer-content-left-content {
+    padding-left: 2.3rem;
+  }
+
+  .footer-redes {
+    visibility: visible;
+  }
+
+  .icon-redes-footer i {
+    font-size: 1rem;
+  }
+
+  .footer-content-left-content {
+    width: 100%;
+    height: 70%;
+  }
+
+  .footer-content-left-content h5 {
+    font-size: 20px;
+  }
+
+  .footer-content-left-content a > p {
+    font-size: 14px;
+  }
+
+  .footer-content-right-content {
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+  }
+
+  .footer-content-right-content p {
+    font-size: 20px;
+  }
+
+  #email,
+  #name {
+    width: 95%;
+    height: 25px;
+  }
+
+  .btn-addNewletter {
+    width: 85px;
+    height: 30px;
+    font-size: 10px;
+  }
+
+  .footer-content-right-content2 {
+    padding-right: 1rem;
+    font-size: 7.5px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /* NAVBAR */
+
+  .navbar {
+    justify-content: space-around;
+  }
+
+  .navbar-logo img {
+    width: 55px;
+    margin-left: 0.3rem;
+  }
+
+  .navbar-titles {
+    gap: 0.5rem;
+  }
+
+  .navbar-titles p {
+    font-size: 12px;
+  }
+
+  .navbar-redes {
+    display: none;
+  }
+
+  /* PÁGINA SOBRE */
+
+  .section {
+    height: 100%;
+  }
+
+  .all-content {
+    flex-direction: column-reverse;
+  }
+
+  .content-left-sobre {
+    width: 100%;
+    margin-block: 2rem 1rem;
+    padding-top: 0;
+  }
+
+  .title-sobre {
+    font-size: 23px;
+  }
+
+  .text-sobre {
+    font-size: 13px;
+    line-height: 18px;
+    padding: 15px 35px;
+  }
+
+  .content-right-sobre {
+    width: 100%;
+  }
+
+  .content-right-sobre img {
+    width: 68%;
+  }
+
+  /* FOOTER */
+
+  .footer-redes,
+  .footer-content-left-content {
+    padding-left: 2rem;
+  }
+
+  .footer-redes {
+    visibility: visible;
+  }
+
+  .icon-redes-footer i {
+    font-size: 1rem;
+  }
+
+  .footer-content-left-content h5 {
+    font-size: 18px;
+  }
+
+  .footer-content-left-content a > p {
+    font-size: 12px;
+  }
+
+  .footer-content-right-content {
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+  }
+
+  .footer-content-right-content p {
+    font-size: 18px;
+  }
+
+  #email,
+  #name {
+    width: 95%;
+    height: 25px;
+  }
+
+  .btn-addNewletter {
+    width: 80px;
+    height: 30px;
+    font-size: 9px;
+  }
+
+  .footer-content-right-content2 {
+    padding-right: 1rem;
+    font-size: 7px;
+  }
+}
