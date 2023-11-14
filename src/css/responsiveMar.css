@@ -1,0 +1,667 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* SECTION */
+
+  .text {
+    font-size: 18px;
+    width: 90%;
+  }
+
+  .section-content-top h1 {
+    font-size: 46px;
+    font-family: "Lobster Two";
+  }
+
+  .section-content-bottom h1 {
+    font-size: 42px;
+    font-family: "Open Sans";
+  }
+
+  .section2-content-top h1 {
+    font-size: 42px;
+    font-family: "Outfit";
+  }
+
+  .section2-content-bottom h1 {
+    font-size: 42px;
+    font-family: "Roboto";
+  }
+
+  .div-img,
+  .div2-img {
+    width: 18rem;
+  }
+
+  #div-img-all-nike {
+    height: 100%;
+    display: grid;
+    gap: 2rem;
+    place-items: center;
+    grid-template-areas:
+      "img-nike1 img-nike2"
+      "img-nike3 img-nike3";
+  }
+
+  #img-nike1 {
+    grid-area: img-nike1;
+  }
+  #img-nike2 {
+    grid-area: img-nike2;
+  }
+  #img-nike3 {
+    grid-area: img-nike3;
+  }
+
+  #div-img-all-adidas {
+    height: 100%;
+    display: grid;
+    gap: 2rem;
+    place-items: center;
+    grid-template-areas:
+      "img-adidas1 img-adidas2"
+      "img-adidas3 img-adidas3";
+  }
+
+  #img-adidas1 {
+    grid-area: img-adidas1;
+  }
+  #img-adidas2 {
+    grid-area: img-adidas2;
+  }
+  #img-adidas3 {
+    grid-area: img-adidas3;
+  }
+
+  #div-img-all-newBalance {
+    height: 100%;
+    display: grid;
+    gap: 2rem;
+    place-items: center;
+    grid-template-areas:
+      "img-NB1 img-NB2"
+      "img-NB3 img-NB3";
+  }
+
+  #img-NB1 {
+    grid-area: img-NB1;
+  }
+  #img-NB2 {
+    grid-area: img-NB2;
+  }
+  #img-NB3 {
+    grid-area: img-NB3;
+  }
+
+  #div-img-all-puma {
+    height: 100%;
+    display: grid;
+    gap: 2rem;
+    place-items: center;
+    grid-template-areas:
+      "img-puma1 img-puma2"
+      "img-puma3 img-puma3";
+  }
+
+  #img-puma1 {
+    grid-area: img-puma1;
+  }
+  #img-puma2 {
+    grid-area: img-puma2;
+  }
+  #img-puma3 {
+    grid-area: img-puma3;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  /* NAVBAR */
+
+  .navbar {
+    justify-content: space-around;
+  }
+
+  .navbar-redes {
+    display: none;
+  }
+
+  .navbar-titles {
+    gap: 1rem;
+  }
+
+  /* MAIN */
+
+  .title {
+    font-size: 40px;
+  }
+
+  .main-img {
+    width: 4.5rem;
+    margin-left: 1.2rem;
+  }
+
+  /* SECTION */
+
+  .text {
+    font-size: 16px;
+    width: 85%;
+  }
+
+  .section-content-top h1 {
+    font-size: 44px;
+    font-family: "Lobster Two";
+  }
+
+  .section-content-bottom h1 {
+    font-size: 40px;
+    font-family: "Open Sans";
+  }
+
+  .section2-content-top h1 {
+    font-size: 40px;
+    font-family: "Outfit";
+  }
+
+  .section2-content-bottom h1 {
+    font-size: 40px;
+    font-family: "Roboto";
+  }
+
+  .div-img,
+  .div2-img {
+    width: 16rem;
+  }
+
+  #div-img-all-nike {
+    height: 100%;
+    display: grid;
+    gap: 2rem;
+    place-items: center;
+    grid-template-areas:
+      "img-nike1 img-nike2"
+      "img-nike3 img-nike3";
+  }
+
+  #img-nike1 {
+    grid-area: img-nike1;
+  }
+  #img-nike2 {
+    grid-area: img-nike2;
+  }
+  #img-nike3 {
+    grid-area: img-nike3;
+  }
+
+  #div-img-all-adidas {
+    height: 100%;
+    display: grid;
+    gap: 2rem;
+    place-items: center;
+    grid-template-areas:
+      "img-adidas1 img-adidas2"
+      "img-adidas3 img-adidas3";
+  }
+
+  #img-adidas1 {
+    grid-area: img-adidas1;
+  }
+  #img-adidas2 {
+    grid-area: img-adidas2;
+  }
+  #img-adidas3 {
+    grid-area: img-adidas3;
+  }
+
+  #div-img-all-newBalance {
+    height: 100%;
+    display: grid;
+    gap: 2rem;
+    place-items: center;
+    grid-template-areas:
+      "img-NB1 img-NB2"
+      "img-NB3 img-NB3";
+  }
+
+  #img-NB1 {
+    grid-area: img-NB1;
+  }
+  #img-NB2 {
+    grid-area: img-NB2;
+  }
+  #img-NB3 {
+    grid-area: img-NB3;
+  }
+
+  #div-img-all-puma {
+    height: 100%;
+    display: grid;
+    gap: 2rem;
+    place-items: center;
+    grid-template-areas:
+      "img-puma1 img-puma2"
+      "img-puma3 img-puma3";
+  }
+
+  #img-puma1 {
+    grid-area: img-puma1;
+  }
+  #img-puma2 {
+    grid-area: img-puma2;
+  }
+  #img-puma3 {
+    grid-area: img-puma3;
+  }
+
+  /* FOOTER */
+
+  .footer-redes {
+    visibility: visible;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+  /* NAVBAR */
+
+  .navbar {
+    justify-content: space-around;
+  }
+
+  .navbar-logo img {
+    width: 55px;
+    margin-left: 0.4rem;
+  }
+
+  .navbar-titles {
+    gap: 0.5rem;
+  }
+
+  .navbar-titles p {
+    font-size: 13px;
+  }
+
+  .navbar-redes {
+    display: none;
+  }
+
+  /* MAIN */
+
+  .title {
+    font-size: 30px;
+  }
+
+  .main-img {
+    width: 3.5rem;
+    margin-left: 1rem;
+  }
+
+  /* SECTION */
+
+  .text {
+    font-size: 14px;
+    width: 85%;
+    /* background-color: powderblue; */
+    /* text-align: unset; */
+  }
+
+  .section-content-top h1 {
+    font-size: 32px;
+    font-family: "Lobster Two";
+  }
+
+  .section-content-bottom h1 {
+    font-size: 30px;
+    font-family: "Open Sans";
+  }
+
+  .section2-content-top h1 {
+    font-size: 30px;
+    font-family: "Outfit";
+  }
+
+  .section2-content-bottom h1 {
+    font-size: 30px;
+    font-family: "Roboto";
+  }
+
+  .div-img,
+  .div2-img {
+    width: 14rem;
+  }
+
+  #div-img-all-nike {
+    height: 100%;
+    display: grid;
+    gap: 2rem;
+    place-items: center;
+    grid-template-areas:
+      "img-nike1 img-nike1"
+      "img-nike2 img-nike2"
+      "img-nike3 img-nike3";
+  }
+
+  #img-nike1 {
+    grid-area: img-nike1;
+  }
+  #img-nike2 {
+    grid-area: img-nike2;
+  }
+  #img-nike3 {
+    grid-area: img-nike3;
+  }
+
+  #div-img-all-adidas {
+    height: 100%;
+    display: grid;
+    gap: 2rem;
+    place-items: center;
+    grid-template-areas:
+      "img-adidas1 img-adidas1"
+      "img-adidas2 img-adidas2"
+      "img-adidas3 img-adidas3";
+  }
+
+  #img-adidas1 {
+    grid-area: img-adidas1;
+  }
+  #img-adidas2 {
+    grid-area: img-adidas2;
+  }
+  #img-adidas3 {
+    grid-area: img-adidas3;
+  }
+
+  #div-img-all-newBalance {
+    height: 100%;
+    display: grid;
+    gap: 2rem;
+    place-items: center;
+    grid-template-areas:
+      "img-NB1 img-NB1"
+      "img-NB2 img-NB2"
+      "img-NB3 img-NB3";
+  }
+
+  #img-NB1 {
+    grid-area: img-NB1;
+  }
+  #img-NB2 {
+    grid-area: img-NB2;
+  }
+  #img-NB3 {
+    grid-area: img-NB3;
+  }
+
+  #div-img-all-puma {
+    height: 100%;
+    display: grid;
+    gap: 2rem;
+    place-items: center;
+    grid-template-areas:
+      "img-puma1 img-puma1"
+      "img-puma2 img-puma2"
+      "img-puma3 img-puma3";
+  }
+
+  #img-puma1 {
+    grid-area: img-puma1;
+  }
+  #img-puma2 {
+    grid-area: img-puma2;
+  }
+  #img-puma3 {
+    grid-area: img-puma3;
+  }
+
+  /* FOOTER */
+
+  .footer-redes,
+  .footer-content-left-content {
+    padding-left: 2.3rem;
+  }
+
+  .footer-redes {
+    visibility: visible;
+  }
+
+  .icon-redes-footer i {
+    font-size: 1rem;
+  }
+
+  .footer-content-left-content {
+    width: 100%;
+    height: 70%;
+  }
+
+  .footer-content-left-content h5 {
+    font-size: 20px;
+  }
+
+  .footer-content-left-content a > p {
+    font-size: 14px;
+  }
+
+  .footer-content-right-content {
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+  }
+
+  .footer-content-right-content p {
+    font-size: 20px;
+  }
+
+  #email,
+  #name {
+    width: 95%;
+    height: 25px;
+  }
+
+  .btn-addNewletter {
+    width: 85px;
+    height: 30px;
+    font-size: 10px;
+  }
+
+  .footer-content-right-content2 {
+    padding-right: 1rem;
+    font-size: 7.5px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /* NAVBAR */
+
+  .navbar {
+    justify-content: space-around;
+  }
+
+  .navbar-logo img {
+    width: 55px;
+    margin-left: 0.3rem;
+  }
+
+  .navbar-titles {
+    gap: 0.5rem;
+  }
+
+  .navbar-titles p {
+    font-size: 12px;
+  }
+
+  .navbar-redes {
+    display: none;
+  }
+
+  /* MAIN */
+
+  .title {
+    font-size: 25px;
+  }
+
+  .main-img {
+    width: 3rem;
+    margin-left: 1rem;
+  }
+
+  /* SECTION */
+
+  .text {
+    font-size: 12px;
+    width: 85%;
+  }
+
+  .section-content-top h1 {
+    font-size: 25px;
+    font-family: "Lobster Two";
+  }
+
+  .section-content-bottom h1 {
+    font-size: 25px;
+    font-family: "Open Sans";
+  }
+
+  .section2-content-top h1 {
+    font-size: 25px;
+    font-family: "Outfit";
+  }
+
+  .section2-content-bottom h1 {
+    font-size: 25px;
+    font-family: "Roboto";
+  }
+
+  .div-img,
+  .div2-img {
+    width: 12rem;
+  }
+
+  #div-img-all-nike {
+    height: 100%;
+    display: grid;
+    gap: 2rem;
+    place-items: center;
+    grid-template-areas:
+      "img-nike1 img-nike1"
+      "img-nike2 img-nike2"
+      "img-nike3 img-nike3";
+  }
+
+  #img-nike1 {
+    grid-area: img-nike1;
+  }
+  #img-nike2 {
+    grid-area: img-nike2;
+  }
+  #img-nike3 {
+    grid-area: img-nike3;
+  }
+
+  #div-img-all-adidas {
+    height: 100%;
+    display: grid;
+    gap: 2rem;
+    place-items: center;
+    grid-template-areas:
+      "img-adidas1 img-adidas1"
+      "img-adidas2 img-adidas2"
+      "img-adidas3 img-adidas3";
+  }
+
+  #img-adidas1 {
+    grid-area: img-adidas1;
+  }
+  #img-adidas2 {
+    grid-area: img-adidas2;
+  }
+  #img-adidas3 {
+    grid-area: img-adidas3;
+  }
+
+  #div-img-all-newBalance {
+    height: 100%;
+    display: grid;
+    gap: 2rem;
+    place-items: center;
+    grid-template-areas:
+      "img-NB1 img-NB1"
+      "img-NB2 img-NB2"
+      "img-NB3 img-NB3";
+  }
+
+  #img-NB1 {
+    grid-area: img-NB1;
+  }
+  #img-NB2 {
+    grid-area: img-NB2;
+  }
+  #img-NB3 {
+    grid-area: img-NB3;
+  }
+
+  #div-img-all-puma {
+    height: 100%;
+    display: grid;
+    gap: 2rem;
+    place-items: center;
+    grid-template-areas:
+      "img-puma1 img-puma1"
+      "img-puma2 img-puma2"
+      "img-puma3 img-puma3";
+  }
+
+  #img-puma1 {
+    grid-area: img-puma1;
+  }
+  #img-puma2 {
+    grid-area: img-puma2;
+  }
+  #img-puma3 {
+    grid-area: img-puma3;
+  }
+
+  /* FOOTER */
+
+  .footer-redes,
+  .footer-content-left-content {
+    padding-left: 2rem;
+  }
+
+  .footer-redes {
+    visibility: visible;
+  }
+
+  .icon-redes-footer i {
+    font-size: 1rem;
+  }
+
+  .footer-content-left-content h5 {
+    font-size: 18px;
+  }
+
+  .footer-content-left-content a > p {
+    font-size: 12px;
+  }
+
+  .footer-content-right-content {
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+  }
+
+  .footer-content-right-content p {
+    font-size: 18px;
+  }
+
+  #email,
+  #name {
+    width: 95%;
+    height: 25px;
+  }
+
+  .btn-addNewletter {
+    width: 80px;
+    height: 30px;
+    font-size: 9px;
+  }
+
+  .footer-content-right-content2 {
+    padding-right: 1rem;
+    font-size: 7px;
+  }
+}
