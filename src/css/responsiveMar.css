@@ -327,15 +327,17 @@
   .div-img,
   .div2-img {
     /* width: 14rem; */
-    width: 16rem;
+    /* width: 16rem; */
+    width: 75%;
   }
 
   #div-img-all-nike {
-    /* width: 100%; */
+    width: 100%;
     height: 100%;
     display: grid;
     gap: 2rem;
     /* place-items: center; */
+    background-color: powderblue;
     grid-template-areas:
       "img-nike1 img-nike1"
       "img-nike2 img-nike2"
