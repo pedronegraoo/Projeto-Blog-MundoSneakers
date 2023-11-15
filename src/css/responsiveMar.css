@@ -548,7 +548,9 @@
   .div-img,
   .div2-img {
     /* width: 14rem; */
-    width: 16rem;
+    /* width: 16rem; */
+    width: 18rem;
+    height: 100%;
   }
 
   #div-img-all-nike {
