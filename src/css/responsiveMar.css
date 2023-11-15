@@ -28,7 +28,7 @@
 
   .div-img,
   .div2-img {
-    width: 18rem;
+    width: 20rem;
   }
 
   #div-img-all-nike {
@@ -167,7 +167,7 @@
 
   .div-img,
   .div2-img {
-    width: 16rem;
+    width: 18rem;
   }
 
   #div-img-all-nike {
@@ -326,7 +326,8 @@
 
   .div-img,
   .div2-img {
-    width: 14rem;
+    /* width: 14rem; */
+    width: 16rem;
   }
 
   #div-img-all-nike {
@@ -542,7 +543,7 @@
 
   .div-img,
   .div2-img {
-    width: 12rem;
+    width: 14rem;
   }
 
   #div-img-all-nike {
