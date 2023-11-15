@@ -186,7 +186,7 @@
   }
 
   .navbar-logo {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
   }
 
   .navbar-logo img {
@@ -203,6 +203,10 @@
   }
 
   .navbar-redes {
+    display: none;
+  }
+
+  .navbar-sobre {
     display: none;
   }
 
