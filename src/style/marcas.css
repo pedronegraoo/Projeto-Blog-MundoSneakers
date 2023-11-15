@@ -100,7 +100,6 @@
 .img-section-top {
   /* width: 18rem; */
   width: 100%;
-  height: 100%;
   border-radius: 1rem;
   margin-inline: 25px;
   transition: all 0.3s linear;
@@ -167,7 +166,6 @@
 .img-section2-bottom {
   /* width: 16rem; */
   width: 100%;
-  height: 100%;
   border-radius: 1rem;
   margin-inline: 25px;
   transition: all 0.3s linear;
