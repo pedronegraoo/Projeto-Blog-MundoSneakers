@@ -331,11 +331,11 @@
   }
 
   #div-img-all-nike {
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
     display: grid;
     gap: 2rem;
-    place-items: center;
+    /* place-items: center; */
     grid-template-areas:
       "img-nike1 img-nike1"
       "img-nike2 img-nike2"
@@ -353,11 +353,11 @@
   }
 
   #div-img-all-adidas {
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
     display: grid;
     gap: 2rem;
-    place-items: center;
+    /* place-items: center; */
     grid-template-areas:
       "img-adidas1 img-adidas1"
       "img-adidas2 img-adidas2"
@@ -375,11 +375,11 @@
   }
 
   #div-img-all-newBalance {
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
     display: grid;
     gap: 2rem;
-    place-items: center;
+    /* place-items: center; */
     grid-template-areas:
       "img-NB1 img-NB1"
       "img-NB2 img-NB2"
@@ -397,11 +397,11 @@
   }
 
   #div-img-all-puma {
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
     display: grid;
     gap: 2rem;
-    place-items: center;
+    /* place-items: center; */
     grid-template-areas:
       "img-puma1 img-puma1"
       "img-puma2 img-puma2"
@@ -553,7 +553,7 @@
 
   #div-img-all-nike {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     display: grid;
     gap: 2rem;
     place-items: center;
@@ -574,11 +574,11 @@
   }
 
   #div-img-all-adidas {
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
     display: grid;
     gap: 2rem;
-    place-items: center;
+    /* place-items: center; */
     grid-template-areas:
       "img-adidas1 img-adidas1"
       "img-adidas2 img-adidas2"
@@ -596,11 +596,11 @@
   }
 
   #div-img-all-newBalance {
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
     display: grid;
     gap: 2rem;
-    place-items: center;
+    /* place-items: center; */
     grid-template-areas:
       "img-NB1 img-NB1"
       "img-NB2 img-NB2"
@@ -618,11 +618,11 @@
   }
 
   #div-img-all-puma {
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
     display: grid;
     gap: 2rem;
-    place-items: center;
+    /* place-items: center; */
     grid-template-areas:
       "img-puma1 img-puma1"
       "img-puma2 img-puma2"
