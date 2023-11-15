@@ -39,9 +39,12 @@
   z-index: 10;
 }
 
+.navbar-logo {
+  margin-left: 2rem;
+}
+
 .navbar-logo img {
   width: 71px;
-  margin-left: 2rem;
 }
 
 .navbar-titles {
