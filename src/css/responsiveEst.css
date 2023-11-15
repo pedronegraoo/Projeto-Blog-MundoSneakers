@@ -246,6 +246,7 @@
     height: 100%;
     display: grid;
     gap: 2rem;
+    place-items: center;
     grid-template-areas:
       "img-Street1 img-Street1"
       "img-Street2 img-Street2";
@@ -262,6 +263,7 @@
     height: 100%;
     display: grid;
     gap: 2rem;
+    place-items: center;
     grid-template-areas:
       "img-casual1 img-casual1"
       "img-casual2 img-casual2";
@@ -270,7 +272,7 @@
   #img-casual1 {
     grid-area: img-casual1;
   }
-  #img-street2 {
+  #img-casual2 {
     grid-area: img-casual2;
   }
 
@@ -278,6 +280,7 @@
     height: 100%;
     display: grid;
     gap: 2rem;
+    place-items: center;
     grid-template-areas:
       "img-esportivo1 img-esportivo1"
       "img-esportivo2 img-esportivo2";
@@ -294,6 +297,7 @@
     height: 100%;
     display: grid;
     gap: 2rem;
+    place-items: center;
     grid-template-areas:
       "img-dadShoes1 img-dadShoes1"
       "img-dadShoes2 img-dadShoes2";
@@ -310,6 +314,7 @@
     height: 100%;
     display: grid;
     gap: 2rem;
+    place-items: center;
     grid-template-areas:
       "img-canoAlto1 img-canoAlto1"
       "img-canoAlto2 img-canoAlto2";
@@ -326,6 +331,7 @@
     height: 100%;
     display: grid;
     gap: 2rem;
+    place-items: center;
     grid-template-areas:
       "img-injetado1 img-injetado1"
       "img-injetado2 img-injetado2";
@@ -462,6 +468,7 @@
     height: 100%;
     display: grid;
     gap: 2rem;
+    place-items: center;
     grid-template-areas:
       "img-Street1 img-Street1"
       "img-Street2 img-Street2";
@@ -478,6 +485,7 @@
     height: 100%;
     display: grid;
     gap: 2rem;
+    place-items: center;
     grid-template-areas:
       "img-casual1 img-casual1"
       "img-casual2 img-casual2";
@@ -486,7 +494,8 @@
   #img-casual1 {
     grid-area: img-casual1;
   }
-  #img-street2 {
+  #img-casual2 {
+    background-color: green;
     grid-area: img-casual2;
   }
 
@@ -494,6 +503,7 @@
     height: 100%;
     display: grid;
     gap: 2rem;
+    place-items: center;
     grid-template-areas:
       "img-esportivo1 img-esportivo1"
       "img-esportivo2 img-esportivo2";
@@ -510,6 +520,7 @@
     height: 100%;
     display: grid;
     gap: 2rem;
+    place-items: center;
     grid-template-areas:
       "img-dadShoes1 img-dadShoes1"
       "img-dadShoes2 img-dadShoes2";
@@ -526,6 +537,7 @@
     height: 100%;
     display: grid;
     gap: 2rem;
+    place-items: center;
     grid-template-areas:
       "img-canoAlto1 img-canoAlto1"
       "img-canoAlto2 img-canoAlto2";
@@ -542,6 +554,7 @@
     height: 100%;
     display: grid;
     gap: 2rem;
+    place-items: center;
     grid-template-areas:
       "img-injetado1 img-injetado1"
       "img-injetado2 img-injetado2";
