@@ -8,6 +8,8 @@
   --font-Open: "Open Sans";
   --font-Bodoni: "Bodoni Moda";
   --font-Roboto: "Roboto";
+  --color-green-light-new: #88b57d;
+  --color-green-text: #193811;
 }
 
 .main {
@@ -161,7 +163,7 @@
 .section {
   width: 100%;
   height: 100vh;
-  background-color: var(--color-green-light);
+  background-color: #88b57d;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -185,7 +187,7 @@
 
 .card {
   width: 200px;
-  height: 280px;
+  height: 310px;
   background-color: white;
   border-radius: 1rem;
   box-shadow: 4px 4px 15px #aaaa;
@@ -200,7 +202,7 @@
   transition: all 0.3s linear;
 }
 
-.card:hover img {
+.card img:hover {
   /* transform: scale(1.2); */
   scale: 1.2;
 }
@@ -210,14 +212,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 1rem;
   gap: 1rem;
   text-transform: capitalize;
+  margin-top: 2.5rem;
 }
 
 .container h2 {
+  color: var(--color-green-text);
   font-family: "Open Sans";
-  margin-top: 10px;
   text-transform: capitalize;
 }
 
@@ -251,6 +253,7 @@
   display: flex;
   font-family: "Open Sans";
   font-size: 1rem;
+  color: var(--color-green-text);
 }
 
 /* SECTION BOTTOM */
@@ -291,44 +294,36 @@
   scale: 1.1;
 }
 
-.card-comments h1 {
+.nome-card1,
+.nome-card2,
+.nome-card3 {
   font-family: "Times New Roman";
   width: 100%;
   height: 2.5rem;
   padding-top: 0.5rem;
   text-transform: capitalize;
-  background-color: var(--color-green-light);
-}
-
-.card-comments p {
-  font-family: "Open Sans";
-  font-size: 0.9rem;
-}
-
-.card-comments p + p {
-  font-family: "Times New Roman";
-  font-size: 1rem;
-  width: 100%;
-  height: 2.5rem;
-  padding-top: 0.6rem;
-  background-color: var(--color-green-light);
+  background-color: var(--color-green-light-new);
 }
 
 .comment-card1,
 .comment-card2,
 .comment-card3 {
-  /* background-color: green; */
-  /* width: 100%; */
-  text-align: center;
-  /* padding: 0px 8px; */
-  margin: 0px 11px;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: "Roboto";
   overflow: auto;
 }
 
 .dataComment1,
 .dataComment2,
 .dataComment3 {
+  width: 100%;
+  padding: 1rem 0;
+  font-family: "Times New Roman";
+  font-size: 1rem;
   font-weight: 550;
+  padding-top: 0.6rem;
+  background-color: var(--color-green-light-new);
 }
 
 /* ADICIONAR COMENTÁRIOS */

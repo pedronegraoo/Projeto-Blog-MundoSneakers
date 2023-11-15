@@ -240,8 +240,16 @@
     grid-area: card3;
   }
 
-  .card-comments h1 {
+  .nome-card1,
+  .nome-card2,
+  .nome-card3 {
     font-size: 1.3rem;
+  }
+
+  .comment-card1,
+  .comment-card2,
+  .comment-card3 {
+    font-size: 0.9rem;
   }
 
   .input {
@@ -415,8 +423,16 @@
     grid-area: card3;
   }
 
-  .card-comments h1 {
+  .nome-card1,
+  .nome-card2,
+  .nome-card3 {
     font-size: 1.2rem;
+  }
+
+  .comment-card1,
+  .comment-card2,
+  .comment-card3 {
+    font-size: 0.9rem;
   }
 
   .input {
