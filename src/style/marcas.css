@@ -97,17 +97,18 @@
   font-family: "Open Sans";
 }
 
-.img-section-top {
-  /* width: 18rem; */
-  width: 100%;
-  border-radius: 1rem;
-  margin-inline: 25px;
-  transition: all 0.3s linear;
-}
-
 .div-img-all {
   display: flex;
   gap: 2rem;
+}
+
+.img-section-top {
+  /* width: 18rem; */
+  /* width: 100%; */
+  width: 20rem;
+  border-radius: 1rem;
+  margin-inline: 25px;
+  transition: all 0.3s linear;
 }
 
 .div-img {
