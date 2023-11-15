@@ -9,6 +9,8 @@
   --font-Open: "Open Sans";
   --font-Bodoni: "Bodoni Moda";
   --font-Roboto: "Roboto";
+  --color-green-light-new: #88b57d;
+  --color-green-text: #193811;
 }
 
 .main {
@@ -63,7 +65,7 @@
   height: 100%;
   padding-block: 2rem;
   display: flex;
-  background-color: var(--color-green-medium);
+  background-color: var(--color-green-light-new);
 }
 
 .content2 {
@@ -76,7 +78,6 @@
 .content1 img,
 .content2 img,
 .content3 img {
-  /* width: 18rem; */
   width: 22rem;
   height: 100%;
   border-radius: 1rem;
@@ -113,6 +114,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
 }
 
 .content2-right {
@@ -122,6 +124,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
 }
 
 .content1-right,
@@ -179,7 +182,8 @@
   gap: 2rem;
   padding: 2rem;
   font-weight: bold;
-  background-color: #ffffff6c;
+  /* background-color: #0942136c; */
+  background-color: #3c53406c;
   box-shadow: 6px 6px 10px #00000049;
 }
 
