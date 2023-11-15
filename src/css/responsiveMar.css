@@ -329,6 +329,7 @@
     /* width: 14rem; */
     /* width: 16rem; */
     width: 75%;
+    height: 100%;
   }
 
   #div-img-all-nike {
@@ -336,7 +337,7 @@
     height: 100%;
     display: grid;
     gap: 2rem;
-    /* place-items: center; */
+    place-items: center;
     background-color: powderblue;
     grid-template-areas:
       "img-nike1 img-nike1"
