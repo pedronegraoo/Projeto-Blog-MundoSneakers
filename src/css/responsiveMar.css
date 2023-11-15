@@ -261,20 +261,25 @@
   /* NAVBAR */
 
   .navbar {
-    justify-content: space-around;
+    justify-content: unset;
+    gap: 1rem;
+  }
+
+  .navbar-logo {
+    margin-left: 1rem;
   }
 
   .navbar-logo img {
-    width: 55px;
-    margin-left: 0.4rem;
+    width: 67px;
   }
 
   .navbar-titles {
     gap: 0.5rem;
+    margin-right: 1rem;
   }
 
   .navbar-titles p {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .navbar-redes {
@@ -297,8 +302,6 @@
   .text {
     font-size: 14px;
     width: 85%;
-    /* background-color: powderblue; */
-    /* text-align: unset; */
   }
 
   .section-content-top h1 {
@@ -330,7 +333,7 @@
     height: 100%;
     display: grid;
     gap: 2rem;
-    place-items: center;
+    /* place-items: center; */
     grid-template-areas:
       "img-nike1 img-nike1"
       "img-nike2 img-nike2"
@@ -351,7 +354,7 @@
     height: 100%;
     display: grid;
     gap: 2rem;
-    place-items: center;
+    /* place-items: center; */
     grid-template-areas:
       "img-adidas1 img-adidas1"
       "img-adidas2 img-adidas2"
@@ -372,7 +375,7 @@
     height: 100%;
     display: grid;
     gap: 2rem;
-    place-items: center;
+    /* place-items: center; */
     grid-template-areas:
       "img-NB1 img-NB1"
       "img-NB2 img-NB2"
@@ -393,7 +396,7 @@
     height: 100%;
     display: grid;
     gap: 2rem;
-    place-items: center;
+    /* place-items: center; */
     grid-template-areas:
       "img-puma1 img-puma1"
       "img-puma2 img-puma2"
@@ -469,26 +472,36 @@
   /* NAVBAR */
 
   .navbar {
-    justify-content: space-around;
+    justify-content: unset;
+    gap: 2rem;
+  }
+
+  .navbar-logo {
+    margin-left: 1rem;
   }
 
   .navbar-logo img {
-    width: 55px;
-    margin-left: 0.3rem;
+    /* width: 55px; */
+    width: 67px;
   }
 
   .navbar-titles {
     gap: 0.5rem;
+    margin-right: 1rem;
   }
 
   .navbar-titles p {
-    font-size: 12px;
+    /* font-size: 12px; */
+    font-size: 13px;
   }
 
   .navbar-redes {
     display: none;
   }
 
+  .navbar-sobre {
+    display: none;
+  }
   /* MAIN */
 
   .title {
@@ -536,7 +549,7 @@
     height: 100%;
     display: grid;
     gap: 2rem;
-    place-items: center;
+    /* place-items: center; */
     grid-template-areas:
       "img-nike1 img-nike1"
       "img-nike2 img-nike2"
@@ -557,7 +570,7 @@
     height: 100%;
     display: grid;
     gap: 2rem;
-    place-items: center;
+    /* place-items: center; */
     grid-template-areas:
       "img-adidas1 img-adidas1"
       "img-adidas2 img-adidas2"
@@ -578,7 +591,7 @@
     height: 100%;
     display: grid;
     gap: 2rem;
-    place-items: center;
+    /* place-items: center; */
     grid-template-areas:
       "img-NB1 img-NB1"
       "img-NB2 img-NB2"
@@ -599,7 +612,7 @@
     height: 100%;
     display: grid;
     gap: 2rem;
-    place-items: center;
+    /* place-items: center; */
     grid-template-areas:
       "img-puma1 img-puma1"
       "img-puma2 img-puma2"

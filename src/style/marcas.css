@@ -9,6 +9,8 @@
   --font-Open: "Open Sans";
   --font-Bodoni: "Bodoni Moda";
   --font-Roboto: "Roboto";
+  --color-green-light-new: #88b57d;
+  --color-green-text: #193811;
 }
 
 .main {
@@ -63,7 +65,7 @@
   flex-direction: column;
   align-items: center;
   gap: 3rem;
-  background-color: var(--color-green-light);
+  background-color: var(--color-green-light-new);
   padding: 2rem 0;
 }
 
@@ -134,7 +136,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--color-green-light);
+  background-color: var(--color-green-light-new);
   gap: 3rem;
   padding: 2rem 0;
 }
