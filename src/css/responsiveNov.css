@@ -16,6 +16,7 @@
     grid-template-areas:
       "card1 card1"
       "card2 card2";
+    place-items: center;
   }
 
   #card1 {
@@ -31,6 +32,7 @@
     grid-template-areas:
       "card3 card3"
       "card4 card4";
+    place-items: center;
   }
 
   #card3 {
@@ -46,6 +48,7 @@
     grid-template-areas:
       "card5 card5"
       "card6 card6";
+    place-items: center;
   }
 
   #card5 {
@@ -57,8 +60,10 @@
 
   .section-content-left,
   .section-content-right {
-    width: 800px;
-    height: 410px;
+    /* width: 800px; */
+    width: 85%;
+    /* height: 410px; */
+    height: 450px;
   }
 }
 
@@ -90,6 +95,7 @@
     grid-template-areas:
       "card1 card1"
       "card2 card2";
+    place-items: center;
   }
 
   #card1 {
@@ -105,6 +111,7 @@
     grid-template-areas:
       "card3 card3"
       "card4 card4";
+    place-items: center;
   }
 
   #card3 {
@@ -120,6 +127,7 @@
     grid-template-areas:
       "card5 card5"
       "card6 card6";
+    place-items: center;
   }
 
   #card5 {
@@ -131,7 +139,8 @@
 
   .section-content-left,
   .section-content-right {
-    width: 600px;
+    /* width: 600px; */
+    width: 85%;
     height: 350px;
   }
 
@@ -180,6 +189,7 @@
     grid-template-areas:
       "card1 card1"
       "card2 card2";
+    place-items: center;
   }
 
   #card1 {
@@ -195,6 +205,7 @@
     grid-template-areas:
       "card3 card3"
       "card4 card4";
+    place-items: center;
   }
 
   #card3 {
@@ -210,6 +221,7 @@
     grid-template-areas:
       "card5 card5"
       "card6 card6";
+    place-items: center;
   }
 
   #card5 {
@@ -221,7 +233,8 @@
 
   .section-content-left,
   .section-content-right {
-    width: 480px;
+    /* width: 480px; */
+    width: 85%;
     height: 310px;
   }
 
@@ -289,6 +302,7 @@
     grid-template-areas:
       "card1 card1"
       "card2 card2";
+    place-items: center;
   }
 
   #card1 {
@@ -304,6 +318,7 @@
     grid-template-areas:
       "card3 card3"
       "card4 card4";
+    place-items: center;
   }
 
   #card3 {
@@ -319,6 +334,7 @@
     grid-template-areas:
       "card5 card5"
       "card6 card6";
+    place-items: center;
   }
 
   #card5 {
@@ -330,7 +346,8 @@
 
   .section-content-left,
   .section-content-right {
-    width: 370px;
+    /* width: 370px; */
+    width: 85%;
     height: 250px;
   }
 
@@ -446,6 +463,7 @@
     grid-template-areas:
       "card1 card1"
       "card2 card2";
+    place-items: center;
   }
 
   #card1 {
@@ -461,6 +479,7 @@
     grid-template-areas:
       "card3 card3"
       "card4 card4";
+    place-items: center;
   }
 
   #card3 {
@@ -476,6 +495,7 @@
     grid-template-areas:
       "card5 card5"
       "card6 card6";
+    place-items: center;
   }
 
   #card5 {
@@ -487,7 +507,8 @@
 
   .section-content-left,
   .section-content-right {
-    width: 320px;
+    /* width: 320px; */
+    width: 85%;
     height: 230px;
   }
 

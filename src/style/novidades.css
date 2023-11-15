@@ -9,6 +9,8 @@
   --font-Open: "Open Sans";
   --font-Bodoni: "Bodoni Moda";
   --font-Roboto: "Roboto";
+  --color-green-light-new: #88b57d;
+  --color-green-text: #193811;
 }
 
 .main {
@@ -69,7 +71,7 @@
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
   transition: all 0.3s linear;
-  image-rendering: auto;
+  /* image-rendering: auto; */
   /* object-fit: cover; */
 }
 
@@ -83,7 +85,7 @@
 
 .section-content-left,
 .section-content-right {
-  background-color: var(--color-green-light);
+  background-color: var(--color-green-light-new);
   width: 620px;
   height: 370px;
   display: flex;
