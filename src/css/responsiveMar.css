@@ -545,12 +545,17 @@
     font-family: "Roboto";
   }
 
-  .div-img,
-  .div2-img {
+  .div-img {
     /* width: 14rem; */
     width: 16rem;
-    /* height: 16rem; */
-    /* background-color: black; */
+    height: 23rem;
+    background-color: black;
+  }
+
+  .div2-img {
+    width: 15rem;
+    height: 23rem;
+    background-color: black;
   }
 
   #div-img-all-nike {
@@ -560,7 +565,7 @@
     /* gap: 2rem; */
     gap: 4rem;
     place-items: center;
-    /* background-color: purple; */
+    background-color: purple;
     grid-template-areas:
       "img-nike1 img-nike1"
       "img-nike2 img-nike2"
