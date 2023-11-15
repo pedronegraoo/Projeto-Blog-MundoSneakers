@@ -262,11 +262,12 @@
 
   .navbar {
     justify-content: unset;
-    gap: 1rem;
+    gap: 1.5rem;
   }
 
   .navbar-logo {
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
+    margin-left: 0.5rem;
   }
 
   .navbar-logo img {
@@ -283,6 +284,10 @@
   }
 
   .navbar-redes {
+    display: none;
+  }
+
+  .navbar-sobre {
     display: none;
   }
 
@@ -548,18 +553,12 @@
     font-family: "Roboto";
   }
 
-  .div-img {
+  .div-img,
+  .div2-img {
     /* width: 14rem; */
     /* width: 16rem; */
     width: 75%;
-    /* height: 23rem; */
-    background-color: black;
-  }
-
-  .div2-img {
-    width: 15rem;
-    height: 23rem;
-    background-color: black;
+    height: 100%;
   }
 
   #div-img-all-nike {
