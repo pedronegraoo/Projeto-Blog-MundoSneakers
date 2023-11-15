@@ -104,8 +104,7 @@
 
 .img-section-top {
   /* width: 18rem; */
-  /* width: 100%; */
-  width: 20rem;
+  width: 100%;
   border-radius: 1rem;
   margin-inline: 25px;
   transition: all 0.3s linear;
@@ -163,7 +162,6 @@
   font-family: "Roboto";
 }
 
-/* class="section2-img" */
 .img-section2-bottom {
   /* width: 16rem; */
   width: 100%;

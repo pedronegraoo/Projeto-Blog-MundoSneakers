@@ -266,7 +266,6 @@
   }
 
   .navbar-logo {
-    /* margin-left: 1rem; */
     margin-left: 0.5rem;
   }
 
@@ -329,34 +328,22 @@
     font-family: "Roboto";
   }
 
-  .img-section-top {
-    width: 18rem;
-  }
-
   .div-img {
-    /* width: 14rem; */
-    /* width: 16rem; */
-    /* width: 75%; */
     width: 18rem;
-    /* height: 23rem; */
-    background-color: black;
+    height: 23rem;
   }
 
   .div2-img {
     width: 18rem;
     height: 27rem;
-    background-color: coral;
   }
 
   #div-img-all-nike {
-    /* width: 100%; */
+    width: 100%;
     height: 100%;
     display: grid;
     gap: 2rem;
-    /* place-items: center; */
-    /* background-color: darkgoldenrod; */
-    /* background-color: teal; */
-    background-color: indigo;
+    place-items: center;
     grid-template-areas:
       "img-nike1 img-nike1"
       "img-nike2 img-nike2"
@@ -503,7 +490,6 @@
   }
 
   .navbar-logo {
-    /* margin-left: 1rem; */
     margin-left: 0.5rem;
   }
 
@@ -567,12 +553,14 @@
     font-family: "Roboto";
   }
 
-  .div-img,
+  .div-img {
+    width: 16rem;
+    height: 20rem;
+  }
+
   .div2-img {
-    /* width: 14rem; */
-    /* width: 16rem; */
-    width: 75%;
-    height: 100%;
+    width: 16rem;
+    height: 24rem;
   }
 
   #div-img-all-nike {
@@ -581,7 +569,6 @@
     display: grid;
     gap: 2rem;
     place-items: center;
-    background-color: purple;
     grid-template-areas:
       "img-nike1 img-nike1"
       "img-nike2 img-nike2"
@@ -599,11 +586,11 @@
   }
 
   #div-img-all-adidas {
-    /* width: 100%; */
+    width: 100%;
     height: 100%;
     display: grid;
     gap: 2rem;
-    /* place-items: center; */
+    place-items: center;
     grid-template-areas:
       "img-adidas1 img-adidas1"
       "img-adidas2 img-adidas2"
@@ -621,11 +608,11 @@
   }
 
   #div-img-all-newBalance {
-    /* width: 100%; */
+    width: 100%;
     height: 100%;
     display: grid;
     gap: 2rem;
-    /* place-items: center; */
+    place-items: center;
     grid-template-areas:
       "img-NB1 img-NB1"
       "img-NB2 img-NB2"
@@ -643,11 +630,11 @@
   }
 
   #div-img-all-puma {
-    /* width: 100%; */
+    width: 100%;
     height: 100%;
     display: grid;
     gap: 2rem;
-    /* place-items: center; */
+    place-items: center;
     grid-template-areas:
       "img-puma1 img-puma1"
       "img-puma2 img-puma2"
