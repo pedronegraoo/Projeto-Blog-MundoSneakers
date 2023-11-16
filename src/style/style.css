@@ -254,6 +254,7 @@
   font-family: "Open Sans";
   font-size: 1rem;
   color: var(--color-green-text);
+  text-align: justify;
 }
 
 /* SECTION BOTTOM */
@@ -311,6 +312,7 @@
   font-size: 1rem;
   font-family: "Roboto";
   overflow: auto;
+  text-align: justify;
 }
 
 .dataComment1,

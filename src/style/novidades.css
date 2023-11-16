@@ -103,6 +103,7 @@
   width: 50%;
   padding: 1.5rem;
   overflow: auto;
+  text-align: justify;
 }
 
 .section-content-left h1,
