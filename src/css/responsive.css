@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   /* SECTION 1 (top) */
 
   .section {
@@ -57,7 +57,7 @@
   }
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   /* NAVBAR */
 
   .navbar {
@@ -78,62 +78,6 @@
     font-size: 40px;
   }
 
-  /* SECTION 1 (top) */
-
-  .section {
-    height: 100%;
-    padding: 2rem 0;
-  }
-
-  .section-content-top {
-    display: grid;
-    grid-template-areas:
-      "card1-top card2-top"
-      "card3-top card4-top";
-  }
-
-  #card1-top {
-    grid-area: card1-top;
-  }
-  #card2-top {
-    grid-area: card2-top;
-  }
-  #card3-top {
-    grid-area: card3-top;
-  }
-  #card4-top {
-    grid-area: card4-top;
-  }
-
-  .section-content-bottom {
-    width: 75%;
-  }
-
-  /* SECTION 2 (bottom)*/
-
-  .section2 {
-    height: 100%;
-    padding: 2rem 0;
-    margin-bottom: 2rem;
-  }
-
-  .section2-content-top {
-    display: grid;
-    grid-template-areas:
-      "card1 card2"
-      "card3 card3";
-  }
-
-  #card1 {
-    grid-area: card1;
-  }
-  #card2 {
-    grid-area: card2;
-  }
-  #card3 {
-    grid-area: card3;
-  }
-
   /* FOOTER */
 
   .footer-redes {
@@ -141,7 +85,7 @@
   }
 }
 
-@media (min-width: 375px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   /* NAVBAR */
 
   .navbar {
@@ -166,10 +110,6 @@
     font-size: 14px;
   }
 
-  .navbar-redes {
-    display: none;
-  }
-
   .navbar-sobre {
     display: none;
   }
@@ -186,11 +126,6 @@
 
   /* SECTION 1 (top) */
 
-  .section {
-    height: 100%;
-    padding: 2rem 0;
-  }
-
   .section-content-top {
     display: grid;
     grid-template-areas:
@@ -200,21 +135,7 @@
       "card4-top card4-top";
   }
 
-  #card1-top {
-    grid-area: card1-top;
-  }
-  #card2-top {
-    grid-area: card2-top;
-  }
-  #card3-top {
-    grid-area: card3-top;
-  }
-  #card4-top {
-    grid-area: card4-top;
-  }
-
   .section-content-bottom {
-    width: 75%;
     font-size: 0.9rem;
   }
 
@@ -225,28 +146,12 @@
 
   /* SECTION 2 (bottom)*/
 
-  .section2 {
-    height: 100%;
-    padding: 2rem 0;
-    margin-bottom: 2rem;
-  }
-
   .section2-content-top {
     display: grid;
     grid-template-areas:
       "card1 card1"
       "card2 card2"
       "card3 card3";
-  }
-
-  #card1 {
-    grid-area: card1;
-  }
-  #card2 {
-    grid-area: card2;
-  }
-  #card3 {
-    grid-area: card3;
   }
 
   .nome-card1,
@@ -329,7 +234,6 @@
   /* NAVBAR */
 
   .navbar {
-    justify-content: unset;
     gap: 2rem;
   }
 
@@ -337,27 +241,8 @@
     margin-left: 1rem;
   }
 
-  .navbar-logo img {
-    /* width: 55px; */
-    width: 67px;
-  }
-
-  .navbar-titles {
-    gap: 0.5rem;
-    margin-right: 1rem;
-  }
-
   .navbar-titles p {
-    /* font-size: 12px; */
     font-size: 13px;
-  }
-
-  .navbar-redes {
-    display: none;
-  }
-
-  .navbar-sobre {
-    display: none;
   }
 
   /* MAIN */
@@ -371,33 +256,6 @@
   }
 
   /* SECTION 1 (top) */
-
-  .section {
-    height: 100%;
-    padding: 2rem 0;
-  }
-
-  .section-content-top {
-    display: grid;
-    grid-template-areas:
-      "card1-top card1-top"
-      "card2-top card2-top"
-      "card3-top card3-top"
-      "card4-top card4-top";
-  }
-
-  #card1-top {
-    grid-area: card1-top;
-  }
-  #card2-top {
-    grid-area: card2-top;
-  }
-  #card3-top {
-    grid-area: card3-top;
-  }
-  #card4-top {
-    grid-area: card4-top;
-  }
 
   .section-content-bottom {
     width: 70%;
@@ -419,49 +277,14 @@
 
   /* SECTION 2 (bottom)*/
 
-  .section2 {
-    height: 100%;
-    padding: 2rem 0;
-    margin-bottom: 2rem;
-  }
-
-  .section2-content-top {
-    display: grid;
-    grid-template-areas:
-      "card1 card1"
-      "card2 card2"
-      "card3 card3";
-  }
-
-  #card1 {
-    grid-area: card1;
-  }
-  #card2 {
-    grid-area: card2;
-  }
-  #card3 {
-    grid-area: card3;
-  }
-
   .nome-card1,
   .nome-card2,
   .nome-card3 {
     font-size: 1.2rem;
   }
 
-  .comment-card1,
-  .comment-card2,
-  .comment-card3 {
-    font-size: 0.9rem;
-  }
-
   .input {
     width: 310px;
-  }
-
-  #inputComment {
-    width: 100%;
-    height: 130px;
   }
 
   /* FOOTER */
@@ -469,14 +292,6 @@
   .footer-redes,
   .footer-content-left-content {
     padding-left: 2rem;
-  }
-
-  .footer-redes {
-    visibility: visible;
-  }
-
-  .icon-redes-footer i {
-    font-size: 1rem;
   }
 
   .footer-content-left-content h5 {
@@ -487,29 +302,16 @@
     font-size: 12px;
   }
 
-  .footer-content-right-content {
-    padding-right: 1rem;
-    padding-top: 1.5rem;
-  }
-
   .footer-content-right-content p {
     font-size: 18px;
   }
 
-  #email,
-  #name {
-    width: 95%;
-    height: 25px;
-  }
-
   .btn-addNewletter {
     width: 80px;
-    height: 30px;
     font-size: 9px;
   }
 
   .footer-content-right-content2 {
-    padding-right: 1rem;
     font-size: 7px;
   }
 }

@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   /* PÁGINA SOBRE */
   .content-left-sobre,
   .content-right-sobre {
@@ -28,7 +28,7 @@
   }
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   /* NAVBAR */
 
   .navbar {
@@ -83,7 +83,7 @@
   }
 }
 
-@media (min-width: 375px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   /* NAVBAR */
 
   .navbar {
@@ -108,27 +108,14 @@
     font-size: 14px;
   }
 
-  .navbar-redes {
-    display: none;
-  }
-
   .navbar-sobre {
     display: none;
   }
 
   /* PÁGINA SOBRE */
-  .section {
-    height: 100%;
-  }
-
-  .all-content {
-    flex-direction: column-reverse;
-  }
 
   .content-left-sobre {
-    width: 100%;
     margin-block: 2rem 1rem;
-    padding-top: 0;
   }
 
   .title-sobre {
@@ -141,11 +128,6 @@
     padding: 15px 35px;
   }
 
-  .content-right-sobre {
-    width: 100%;
-    padding-top: 6rem;
-  }
-
   .content-right-sobre img {
     width: 68%;
   }
@@ -155,10 +137,6 @@
   .footer-redes,
   .footer-content-left-content {
     padding-left: 2.3rem;
-  }
-
-  .footer-redes {
-    visibility: visible;
   }
 
   .icon-redes-footer i {
@@ -207,8 +185,8 @@
 
 @media screen and (max-width: 375px) {
   /* NAVBAR */
+
   .navbar {
-    justify-content: unset;
     gap: 2rem;
   }
 
@@ -216,44 +194,11 @@
     margin-left: 1rem;
   }
 
-  .navbar-logo img {
-    /* width: 55px; */
-    width: 67px;
-  }
-
-  .navbar-titles {
-    gap: 0.5rem;
-    margin-right: 1rem;
-  }
-
   .navbar-titles p {
-    /* font-size: 12px; */
     font-size: 13px;
   }
 
-  .navbar-redes {
-    display: none;
-  }
-
-  .navbar-sobre {
-    display: none;
-  }
-
   /* PÁGINA SOBRE */
-
-  .section {
-    height: 100%;
-  }
-
-  .all-content {
-    flex-direction: column-reverse;
-  }
-
-  .content-left-sobre {
-    width: 100%;
-    margin-block: 2rem 1rem;
-    padding-top: 0;
-  }
 
   .title-sobre {
     font-size: 23px;
@@ -261,16 +206,6 @@
 
   .text-sobre {
     font-size: 13px;
-    line-height: 18px;
-    padding: 15px 35px;
-  }
-
-  .content-right-sobre {
-    width: 100%;
-  }
-
-  .content-right-sobre img {
-    width: 68%;
   }
 
   /* FOOTER */
@@ -278,14 +213,6 @@
   .footer-redes,
   .footer-content-left-content {
     padding-left: 2rem;
-  }
-
-  .footer-redes {
-    visibility: visible;
-  }
-
-  .icon-redes-footer i {
-    font-size: 1rem;
   }
 
   .footer-content-left-content h5 {
@@ -296,29 +223,16 @@
     font-size: 12px;
   }
 
-  .footer-content-right-content {
-    padding-right: 1rem;
-    padding-top: 1.5rem;
-  }
-
   .footer-content-right-content p {
     font-size: 18px;
   }
 
-  #email,
-  #name {
-    width: 95%;
-    height: 25px;
-  }
-
   .btn-addNewletter {
     width: 80px;
-    height: 30px;
     font-size: 9px;
   }
 
   .footer-content-right-content2 {
-    padding-right: 1rem;
     font-size: 7px;
   }
 }
