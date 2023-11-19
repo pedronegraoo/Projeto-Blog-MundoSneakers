@@ -301,7 +301,17 @@
   width: 100%;
   padding: 0.5rem 0;
   font-family: "Times New Roman";
+  font-size: 1.4rem;
   text-transform: capitalize;
+  color: var(--color-green-text);
+  background-color: var(--color-green-light-new);
+}
+
+.newNameCard {
+  font-family: "Times New Roman";
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  color: var(--color-green-text);
   background-color: var(--color-green-light-new);
 }
 
@@ -311,22 +321,38 @@
   padding: 1rem;
   font-size: 1rem;
   font-family: "Roboto";
+  color: var(--color-green-text);
   overflow: auto;
   text-align: justify;
 }
 
-.dataComment1,
-.dataComment2,
-.dataComment3 {
+.newCommentCard {
+  font-size: 1rem;
+  font-family: "Roboto";
+  color: var(--color-green-text);
+}
+
+.dataComment-card1,
+.dataComment-card2,
+.dataComment-card3 {
   width: 100%;
   padding: 0.9rem 0;
   font-family: "Times New Roman";
   font-size: 1rem;
   font-weight: 550;
+  color: var(--color-green-text);
   background-color: var(--color-green-light-new);
 }
 
-/* ADICIONAR COMENTÁRIOS */
+.newDataCard {
+  font-family: "Times New Roman";
+  font-size: 1rem;
+  font-weight: 550;
+  color: var(--color-green-text);
+  background-color: var(--color-green-light-new);
+}
+
+/* ADICIONAR COMENTÁRIOS  */
 
 .section2-content-bottom {
   display: flex;
