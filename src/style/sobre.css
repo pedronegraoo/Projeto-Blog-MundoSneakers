@@ -80,6 +80,7 @@
 }
 
 .content-right-sobre:hover img {
-  filter: blur(1px);
-  transform: scale(1.1);
+  filter: blur(0.5px);
+  /* backdrop-filter: blur(10px); */
+  transform: scale(1.05);
 }
